@@ -1,0 +1,296 @@
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --acсent-color: #2196F3;
+  --primary-background-color:  #FFFFFF;
+  --secondary-background-color: #F5F4FA;
+
+}
+body {
+    color: var(--main-text-color);
+    background-color: var(--primary-background-color);
+
+    font-family: Roboto, sans-serif;
+
+}
+
+
+/* ----------------------Site-nav-------------------- */
+
+.site-nav {
+list-style-type: none;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+
+}
+.site-nav a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+color: var(--acсent-color);
+}
+
+.site-nav .link-current {
+    color: var(--acсent-color);
+
+}
+
+/* ---------------------Logo------------------------- */
+.logo {
+text-decoration: none;
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.logotext-accent {
+    color: var(--acсent-color);
+}
+
+.logotext-primary {
+    color: black;
+}
+
+.logotext-footer {
+    color: #FFFFFF;
+}
+
+
+
+/*------------------- Hero ---------------------------*/
+.hero {
+    background-color: #2F303A;
+    letter-spacing: 0.06em;
+
+}
+.hero-title {
+color: #FFFFFF;
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+text-transform: uppercase;
+}
+
+.order-button {
+color: #FFFFFF;
+background-color: var(--acсent-color);
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+}
+
+.order-button:hover,
+.order-button:focus {
+ background-color:  #188CE8;
+}
+
+
+
+/*--------------------- Section ----------------------*/
+.section {
+    letter-spacing: 0.03em;
+
+}
+
+.section-title {
+color: var(--main-text-color);
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+}
+
+.section-list .section-list-item {
+    list-style-type: none;
+}
+
+
+
+
+
+/*-------------------------- Contacts-nav------------------- */
+.contacts-nav {
+list-style-type: none;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+
+}
+
+.contacts-nav a {
+color: var(--secondary-text-color);
+text-decoration: none;
+}
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+color: var(--acсent-color)
+}
+
+
+
+/*------------------------ Features --------------------------*/
+
+.features {
+    letter-spacing: 0.03em;
+
+}
+
+.features .feature-list {
+color: var(--main-text-color);
+}
+
+.feature-item {
+    list-style-type: none;
+}
+
+.features .text {
+    color: var(--secondary-text-color);
+}
+
+
+
+/*------------------------ Team------------------------------ */
+
+.team {
+background-color: #F5F4FA;
+letter-spacing: 0.03em;
+}
+
+.our-team {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-member {
+background-color: var(--primary-background-color);
+
+}
+
+.team .team-title {
+color: var(--main-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+}
+
+.team .text {
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+}
+
+.team .team-member {
+    list-style-type: none;
+
+}
+
+.team-list .text {
+    color: var(--secondary-text-color);
+}
+
+
+
+/*--------------------------- Footer--------------------------- */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-contacts {
+list-style-type: none;
+letter-spacing: 0.03em;
+
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+
+}
+
+.footer-contacts-location a {
+    color: #FFFFFF;
+}
+
+.location-link {
+text-decoration: none;
+}
+
+.footer-contacts-color {
+color: #FFFFFF;
+opacity: .6;
+text-decoration: none;
+}
+
+.footer-contacts-color:hover,
+.footer-contacts-color:focus {
+    color: #2196F3;
+}
+
+
+
+/* -----------------portfolio.html------------------------------ */
+
+/* Projects */
+.button {
+background-color: var(--secondary-background-color);
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: var(--acсent-color);
+}
+
+.projects-list {
+    list-style-type: none;
+}
+
+.projects-title {
+color: #212121;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.projects-example {
+    list-style-type: none;
+}
+
+.projects .text {
+color: var(--secondary-text-color);
+font-size: 16px;
+line-height: 1.9;    
+letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
+
+
+
