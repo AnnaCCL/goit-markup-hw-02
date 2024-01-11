@@ -1,4 +1,147 @@
+:root {
+--main-text-color: #434455;
+--title-text-color: #2E2F42;
+--accent-color: #4D5AE5;
+--main-background-color: #FFFFFF;
+--second-background-color: #F4F4FD;
+--hover-color: #404BBF;
+}
+
 body {
-    font-family: "Roboto";
+    font-family: Roboto, Raleway, sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+
+/* main text color #434455 */
+/* title text color #2E2F42 */
+/* accent #4D5AE5 #FFFFFF */
+/* main background color #FFFFFF */
+/* second background color #F4F4FD */
+/* link hover #404BBF; */
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3 {
+    color: var(--title-text-color);
+}
+
+/* Site nav */
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.logo-accent {
+    color: var(--title-text-color);
+}
+
+.logo .logo-accent:active {
+color: #404BBF;
+}
+
+.site-nav {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,5;
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #404BBF;
+}
+
+.address-list .address-type {
+    color:var(--main-text-color);
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+}
+
+.address-list .address-type:hover {
+    color: #404BBF;
+}
+
+/* Hero */
+.hero {
+    background-color: var(--title-text-color);
+}
+
+.hero-title {
+    color: var(--main-background-color);
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.hero-button {
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
     
+}
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+/* Body */
+
+/* Features !!!! можливо краще переробити на селектори класу !!!! */
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* Features !!!! можливо краще переробити на селектори класу !!!! */
+
+
+/* Footer */
+
+.footer {
+    background-color: var(--title-text-color);
+}
+
+.footer .footer-text {
+    color: var(--second-background-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-accent {
+    color: var(--second-background-color);
 }
