@@ -117,19 +117,25 @@ color: #404BBF;
 
 /* Body */
 
-/* Features !!!! можливо краще переробити на селектори класу !!!! */
+/* Features !можливо краще переробити на селектори класу? */
+
+
 h2 {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 h3 {
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 p {
@@ -137,9 +143,22 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-/* Features !!!! можливо краще переробити на селектори класу !!!! */
 
+/* Team */
+
+.team {
+    background-color: #F4F4FD;
+
+}
+
+.team-list {
+    background-color: #FFFFFF;
+
+}
+
+/* Portfolio */
 
 /* Footer */
 
